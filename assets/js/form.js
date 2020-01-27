@@ -28,3 +28,8 @@ function verificaOrc(){
         categoryService.disabled = true;
     }
 }
+
+function navigateTo(elId){
+    var elmt = document.getElementById(elId);
+    elmt.scrollIntoView();
+}
