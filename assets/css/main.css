@@ -3277,13 +3277,14 @@
 /* Formulário de contato*/
 
 		.pop-form{
-			margin-left: 30%;
+			margin-left: 10%;
+			width: 70%;
 			background: #FFF;
 			display: none;
 			position: fixed;
 			border: 1px double black;
 			padding: 3%;
-			z-index: 100;
+			z-index: 1;
 		}
 
 		.pop-form h3{

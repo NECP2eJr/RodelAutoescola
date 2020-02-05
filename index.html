@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/rodel.png" />
 		<script src="assets/js/form.js"></script>
 	</head>
 	<body class="landing">
@@ -42,6 +43,9 @@
 							<div class="6u 12u$(medium)">
 								<header class="major">
 									<h2>Quem Somos?</h2>
+									<div id="rIcon">
+										<img src="images/rodel.png">
+									</div>
 								</header>
 							</div>
 							<div class="6u$ 12u$(medium)">
@@ -191,17 +195,17 @@
 									<form method="post" action="#">
 										<div class="row uniform 50%">
 											<div class="6u 12u$(xsmall)">
-												<input type="text" name="name" id="name" value="" placeholder="Nome">
+												<input type="text" name="name" id="nameCont" value="" placeholder="Nome">
 											</div>
 											<div class="6u$ 12u$(xsmall)">
-												<input type="email" name="email" id="email" value="" placeholder="Email">
+												<input type="email" name="email" id="emailCont" value="" placeholder="Email">
 											</div>
 											<div class="6u$ 12u$(small)">
-												<input type="checkbox" id="human" name="human" checked="">
+												<input type="checkbox" id="human" name="human" value="">
 												<label for="human">Não sou um robô</label>
 											</div>
 											<div class="12u$">
-												<textarea name="message" id="message" placeholder="Escreva aqui sua mensagem" rows="6"></textarea>
+												<textarea name="message" id="messageCont" placeholder="Escreva aqui sua mensagem" rows="6"></textarea>
 											</div>
 											<div class="12u$">
 												<ul class="actions">
@@ -220,10 +224,10 @@
 										<form method="post" action="#">
 											<div class="row uniform 50%">
 												<div class="6u 12u$(xsmall)">
-													<input type="text" name="name" id="name" value="" placeholder="Nome">
+													<input type="text" name="name" id="nameOrc" value="" placeholder="Nome">
 												</div>
 												<div class="6u$ 12u$(xsmall)">
-													<input type="email" name="email" id="email" value="" placeholder="Email">
+													<input type="email" name="email" id="emailOrc" value="" placeholder="Email">
 												</div>
 												<div class="12u$">
 													<div class="select-wrapper">
