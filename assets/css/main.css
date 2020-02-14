@@ -16,6 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+		scroll-behavior: smooth;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2356,6 +2357,18 @@
 				padding: 2em 1em;
 			}
 
+			.image.captioned h3:hover{
+				background-color: #ddd;
+				transition: all 2s;
+			}
+
+			.image.captioned h2 {
+				background-color: #fafafa;
+				box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.15);
+				display: block;
+				padding: 2em 1em;
+			}
+
 			.image.captioned ul {
 				background-color: #fff;
 				box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.15);
@@ -2405,6 +2418,11 @@
 
 		ul li {
 			padding-left: 0.5em;
+		}
+
+		ul li a{
+			text-decoration:none;
+			color: #2f48a1;
 		}
 
 		ul.alt {
@@ -3097,7 +3115,7 @@
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../images/banner2.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3290,3 +3308,11 @@
 		.pop-form h3{
 			text-align: center;
 		}
+
+
+		#up{
+			position:fixed;
+			bottom:0px;
+			right:0px;
+		}
+		
