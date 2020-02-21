@@ -37,6 +37,25 @@ function verificaOrc(){
     }
 }
 
+function openInfo(elId, close1, close2, close3){
+    var doc = document.getElementById(elId);
+    if(doc.style.display == 'block'){
+        doc.style.display = 'none';
+        doc.style.position = 'absolute';
+    } else {
+        doc.style.display = "block";
+        doc.style.position = "absolute";
+    }
+    closeInfo(close1);
+    closeInfo(close2);
+    closeInfo(close3);
+}
+
+function closeInfo(closeId){
+    document.getElementById(closeId).style.display = "none";
+    document.getElementById(closeId).style.position = "fixed";
+}
+
 function navigateTo(elId){
     var elmt = document.getElementById(elId);
     elmt.scrollIntoView();

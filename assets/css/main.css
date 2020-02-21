@@ -2425,9 +2425,14 @@
 			color: #2f48a1;
 		}
 
-		ul.alt {
+		ul.alt.pop-info {
 			list-style: none;
 			padding-left: 0;
+			position: fixed;
+			display: none;
+			width: 100%;
+			z-index: 5;
+			border: rgb(0, 0, 0);
 		}
 
 			ul.alt li {
@@ -3311,8 +3316,10 @@
 
 
 		#up{
+
 			position:fixed;
 			bottom:0px;
 			right:0px;
 		}
-		
+
+	

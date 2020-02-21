@@ -39,7 +39,7 @@
 
 		<!-- Topo -->
 		<div id="top">
-			<a href="#" id="up" class="icon fa-arrow-up"></a>
+			<a href="#" id="up" class="icon fa-arrow-up fa-lg"></a>
 		</div>
 
 			<!-- One -->
@@ -86,8 +86,11 @@
 						<div class="row 150%">
 							<div class="6u 12u$(xsmall)">
 								<div class="image fit captioned">
-									<h3>Documentos Necessários</h3>
-									<ul class="alt">
+									<div class="doc2">
+										<img src="images/documentos.jpg" alt="" />
+									</div>
+									<h3  onclick="openInfo('infoDoc','infoTeste','infoExame','infoAprovado')">Documentos Necessários<a class="icon fa-sort-down"></a></h3>
+									<ul id="infoDoc" class="alt pop-info">
 										<li>CPF</li>
 										<li>RG</li>
 										<li>Comprovante de residência</li>
@@ -96,8 +99,11 @@
 							</div>
 							<div class="6u$ 12u$(xsmall)">
 								<div class="image fit captioned">
-									<h3>Aulas e Testes</h3>
-									<ul class="alt">
+									<div class="doc2">
+										<img src="images/aula.jpg" alt="" />
+									</div>
+										<h3 onclick="openInfo('infoTeste','infoDoc','infoExame','infoAprovado')">Aulas e Testes<a class="icon fa-sort-down"></a></h3>
+									<ul id="infoTeste" class="alt pop-info">
 										<li>45 horas de aulas teóricas</li>
 										<li>25 horas de aulas práticas</li>
 										<li>Teste teórico e prático</li>
@@ -106,8 +112,11 @@
 							</div>
 							<div class="6u 12u$(xsmall)">
 								<div class="image fit captioned">
-									<h3>Exames Exigidos</h3>
-									<ul class="alt">
+									<div class="doc2">
+										<img src="images/exame.jpg" alt="" />
+									</div>
+									<h3 onclick="openInfo('infoExame','infoDoc','infoTeste','infoAprovado')">Exames Exigidos  <a class="icon fa-sort-down"></a></h3>
+									<ul id="infoExame" class="alt pop-info">
 										<li>Exame de aptidão física</li>
 										<li>Exame psicotécnico</li>
 									</ul>
@@ -115,8 +124,11 @@
 							</div>
 							<div class="6u$ 12u$(xsmall)">
 								<div class="image fit captioned">
-									<h3>CNH Aprovada</h3>
-									<ul class="alt">
+									<div class="doc2">
+										<img src="images/cnh.jpeg" alt="" />
+									</div>
+									<h3 onclick="openInfo('infoAprovado','infoDoc','infoExame','infoTeste')">CNH Aprovado<a class="icon fa-sort-down"></a></h3>
+									<ul id="infoAprovado" class="alt pop-info">
 										<li>Habilitação provisória por 1 ano</li>
 										<li>CNH definitiva</li>
 									</ul>
